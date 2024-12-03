@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<h1>Meal Managment</h1>
+<a href="../taxi">go to taxi page m.f***</a><br><br>
+<fieldset>
+    <legend>Create New Meal</legend>
+    <label>Meal Name:</label><br>
+    <input><br>
+    <br>
+    <label for="nom">Ingredients:</label><br>
+    <textarea id="nom"></textarea><br>
+    <br>
+    <label>Price:</label><br>
+    <input><br>
+    <br>
+     <label for="Type">Type:</label><br>
+    <select id="Type">
+        <option>Select Type</option>
+<!--        <option>Start</option>-->
+<!--        <option>Comfort</option>-->
+<!--        <option>Comfort+</option>-->
+<!--        <option>Business</option>-->
+        <option>Appetizer</option>
+        <option>Main Course</option>
+        <option>Dessert</option>
+    </select>
+    <br>
+    <br>
+    <label>Cuisine:</label><br>
+    <input><br>
+    <br>
+    <button>Create Meal</button>
+</fieldset>
+<fieldset>
+    <legend>Meal List</legend>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Ingredients</th>
+            <th>Price</th>
+            <th>Type</th>
+            <th>Cuisine</th>
+        </tr>
+
+        </thead>
+        <tbody>
+        <tr>
+            <td>Caesar Salad</td>
+            <td>Lettuce, croutons, parmesan, Caesar dressing</td>
+            <td>$12.99</td>
+            <td>Appetizer</td>
+            <td>Italian</td>
+        </tr>
+        <tr>
+            <td>Grilled Chicken</td>
+            <td>Chicken breast, spices, olive oi</td>
+            <td>$18.50</td>
+            <td>Main Course</td>
+            <td>American</td>
+        </tr>
+        <tr>
+            <td>Chocolate Cake</td>
+            <td>Chocolate Flour, cocoa, sugar, butter</td>
+            <td>$6.99</td>
+            <td>Dessert</td>
+            <td>French</td>
+        </tr>
+        </tbody>
+    </table>
+</fieldset>
+</body>
+</html>

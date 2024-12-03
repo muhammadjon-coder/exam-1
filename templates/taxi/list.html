@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi Management</title>
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        th{
+            border: 1px solid black;
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<h1>Taxi Management</h1>
+<a href="../meals">go to meals page m.f***</a><br><br>
+<fieldset>
+    <legend>Create New Taxi</legend>
+    <label>Taxi Name:</label><br>
+    <input><br>
+    <br>
+    <label>Licence Plate:</label><br>
+    <input><br>
+    <br>
+    <label>Driver Name:</label><br>
+    <input><br>
+    <br>
+    <label>Passenger Capacity:</label><br>
+    <input><br>
+    <br>
+    <label>Car Model:</label><br>
+    <input><br>
+    <br>
+    <label for="status">Status:</label><br>
+    <select id="status">
+        <option>Select Status</option>
+<!--        <option>Start</option>-->
+<!--        <option>Comfort</option>-->
+<!--        <option>Comfort+</option>-->
+<!--        <option>Business</option>-->
+        <option>Available</option>
+        <option>Busy</option>
+        <option>Under Maintenance</option>
+    </select>
+    <br>
+    <br>
+    <button>Create Taxi</button>
+</fieldset>
+<fieldset>
+    <legend>Taxi List</legend>
+    <table>
+        <thead>
+        <tr>
+            <th>Taxi Name</th>
+            <th>License Plate</th>
+            <th>Driver</th>
+            <th>Capacity</th>
+            <th>Model</th>
+            <th>Status</th>
+        </tr>
+
+        </thead>
+        <tbody>
+        <tr>
+            <td>CityCab</td>
+            <td>AB123CD</td>
+            <td>Jhon Doe</td>
+            <td>4</td>
+            <td>Toyota Prius</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>ExpressRide</td>
+            <td>EF456GH</td>
+            <td>Jane Smith</td>
+            <td>6</td>
+            <td>Honda Odyssey</td>
+            <td>Busy</td>
+        </tr>
+        <tr>
+            <td>GreenTaxi</td>
+            <td>IJ789KL</td>
+            <td>Ahmed Khan</td>
+            <td>4</td>
+            <td>Hyundai Sonata</td>
+            <td>Under Maintenance</td>
+        </tr>
+        </tbody>
+    </table>
+</fieldset>
+</body>
+</html>
